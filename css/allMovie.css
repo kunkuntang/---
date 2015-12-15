@@ -1,0 +1,100 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+
+/* structural elements 结构元素 */
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+
+/* list elements 列表元素 */
+
+pre,
+
+/* text formatting elements 文本格式元素 */
+
+fieldset,
+button,
+input,
+textarea,
+
+/* form elements 表单元素 */
+
+th,
+td {
+	/* table elements 表格元素 */
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+header .header {
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+}
+
+header .header .header_left {
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+
+header .header .header_left img {
+	margin-top: 14px;
+	margin-left: 20px;
+	vertical-align: middle;
+	width: 96.3px;
+	height: 61.6px;
+}
+
+header .header .header_right {
+	width: 600px;
+	overflow: hidden;
+	font-size: 22px;
+	font-family: "微软雅黑";
+}
+
+header .header .header_right li {
+	float: left;
+	width: 25%;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 100px;
+}
+
+header .header .header_right li:hover {
+	background-color: rgba(0,0,0,0.8);
+}

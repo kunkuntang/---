@@ -1,0 +1,189 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+
+/* structural elements 结构元素 */
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+
+/* list elements 列表元素 */
+
+pre,
+
+/* text formatting elements 文本格式元素 */
+
+fieldset,
+button,
+input,
+textarea,
+
+/* form elements 表单元素 */
+
+th,
+td {
+	/* table elements 表格元素 */
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 10%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+header .header {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header .header .header_left {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+header .header .header_left img {
+	margin-top: 14px;
+	margin-left: 20px;
+	vertical-align: middle;
+	width: 96.3px;
+	height: 61.6px;
+}
+
+header .header .header_right {
+	height: 100%;
+	width: 600px;
+	overflow: hidden;
+	font-size: 22px;
+	font-family: "Microsoft YaHei";
+}
+
+header .header .header_right li {
+	padding-top: 30px;
+	height: 100%;
+	float: left;
+	width: 25%;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+header .header .header_right li:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+#banner_con {
+	width: 100%;
+	height: 90%;
+}
+
+#banner_con .banner {
+	width: 100%;
+	height: 100%;
+	/*background-image: url(../img/hunger_game3.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;*/
+	position: relative;
+	background-color: black;
+}
+#banner_con .banner img{
+	height: 600px;
+	width: 960px;
+	position: relative;
+	left: 50%;
+	margin-left: -480px;
+}
+
+#small_pic {
+	height: auto;
+	background-color: rgba(255, 255, 255, .3);
+	width: 100%;
+}
+
+#small_pic .bottom_bar {
+	width: 440px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#small_pic .bottom_bar .small_banner {
+	width: 90px;
+	height: 140px;
+	margin-left: 5px;
+	position: relative;
+	float: left;
+	border: 5px solid rgba(0, 0, 0, 0);
+}
+
+#small_pic .bottom_bar .small_banner .detail {
+	width: 100%;
+	height: 30%;
+	background-color: rgba(137, 127, 127, 0.6);
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+#small_pic .bottom_bar .small_banner .detail span {
+	margin-top: 15px;
+	display: block;
+	color: #FFFFFF;
+}
+
+#small_pic .bottom_bar .pic1 {
+	background-image: url(../img/hunger_game3_small.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#small_pic .bottom_bar .pic2 {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/20130331221804_sJ8HF.thumb.700_0.jpeg);
+}
+
+#small_pic .bottom_bar .pic3 {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/point_break_small.jpg);
+}
+
+#small_pic .bottom_bar .pic4 {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/The_little_primce_small.jpg);
+}
+
+#small_pic .bottom_bar .small_active {
+	border: 5px solid #ff7800;
+}
