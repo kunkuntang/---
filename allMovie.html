@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>全部电影</title>
+		<link rel="stylesheet" type="text/css" href="css/allMovie.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="header">
+				<div class="header_left">
+					<img src="img/logo.png" />
+					<span>每周做好电影 </span>
+				</div>
+				<div class="header_right">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="allMovie.html">全部电影</a></li>
+					<li><a href="news.html">最新动态</a></li>
+					<li>关于我们</li>
+				</div>
+			</div>
+		</header>
+		<div class="banner">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div id="arrow"><span id="pre"></span><span id="next"></span></div>
+		</div>
+		<div class="body">
+			<div class="sidebar">
+				<ul>
+					<li>最热排行</li>
+					<li>最新排行</li>
+					<li>国内电影</li>
+					<li>国外电影</li>
+				</ul>
+			</div>
+			<div class="content" id="content">
+				<a href="breakdown"><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+				<a href=""><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+				<a href=""><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+				<a href=""><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+				<a href=""><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+				<a href=""><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+				<a href=""><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+				<a href=""><div class="container_mov">
+					<span class="declare"></span>
+				</div></a>
+			</div>
+		</div>
+		<script>
+			window.onload = function(){
+				! function(){
+					var imgUrl = [
+							'img/breaking_down/breaking_dawn.jpeg',
+							'img/hunger_game3/hunger_game3_small.jpg',
+							'img/Our_Times/OT.jpg',
+							'img/point_break/point_break_small.jpg',
+							'img/The_little_primce/The_little_primce_small.jpg',
+							'img/The_Master/The_Master.jpg',
+							'img/The_Walk/The_Walk.jpg'
+							];
+					var mImg = document.getElementById('content').getElementsByTagName('div');
+					for(var i = 0; i < mImg.length; i++){
+						console.log(imgUrl[i]);
+						mImg[i].style.backgroundImage = 'url('+ imgUrl[i] +')';
+						mImg[i].style.backgroundSize = 'cover';
+						mImg[i].style.backgroundPosition = 'center';
+					}
+				}();
+				
+				! function(){
+					var imgUrl = [
+								'img/The_little_primce/The_little_primce.jpg',
+								'img/The_Murdener_Vanishes/TMV1.jpg',
+								'img/Inside_Out/IO.jpg',
+								'img/Lost_In_Hongkong/LIH.jpg',
+								'img/Young_For_You/YFY.jpg',
+								
+								]
+				}();
+			}
+		</script>
+	</body>
+
+</html>
